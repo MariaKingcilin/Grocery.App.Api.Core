@@ -1,0 +1,35 @@
+{
+  "name": "grocery.app.api.core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec \"cls && tsc && node ./dist/server.js\" ./src/server.ts -q"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MariaKingcilin/Grocery.App.Api.Core.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MariaKingcilin/Grocery.App.Api.Core/issues"
+  },
+  "homepage": "https://github.com/MariaKingcilin/Grocery.App.Api.Core#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.1",
+    "@types/pg": "^8.15.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
